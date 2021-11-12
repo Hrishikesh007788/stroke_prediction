@@ -26,15 +26,14 @@ def result():
     x=np.array([gender,age,hypertension,heart_disease,ever_married,work_type,Residence_type,
                 avg_glucose_level,bmi,smoking_status]).reshape(1,-1)
 
-    scaler_path=os.path.join('/Users/hrishikeshdutta/Desktop/Stroke_Prediction/','models/scaler.pkl')
-    scaler=None
-    with open(scaler_path,'rb') as scaler_file:
-        scaler=pickle.load(scaler_file)
+
+    scaler_file= open('models/scaler.pkl','rb')
+    scaler=pickle.load(scaler_file)
 
     x=scaler.transform(x)
 
-    model_path=os.path.join('/Users/hrishikeshdutta/Desktop/Stroke_Prediction/','models/rf.sav')
-    rf=joblib.load(model_path)
+
+    rf=joblib.load('models/rf.sav')
 
     Y_pred=rf.predict(x)
 
