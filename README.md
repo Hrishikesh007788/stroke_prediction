@@ -36,21 +36,28 @@ Attribute Information:
 ## Project Tree Structure
 ```
  .
-├── Images
-    ├── ineuron-logo.png
+├── Analysis
+    ├── EDA.ipynb
+    ├── Model_selection.ipynb
+├── Datasets
+     ├── healthcare-dataset-stroke-data.csv
+     ├── preprocessed.csv
+├── __pycache__
+     ├── app.cpython-38.pyc
+├── models
+     ├── rf.sav
+     ├── scaler.pkl
 ├── src
      ├── model_creation.py
      ├── preprocessing.py
-├── Concrete Compressive Strength Prediction.ipynb
-├── Procfile
-├── app.py
-├── reports
-├── concrete_data.csv
-├── requirements.txt
 ├── templates
-├── setup.sh
-├── strength.pkl
-└── README.md
+     ├── home.html
+     ├── nostroke.html
+     ├── stroke.html
+├── Procfile
+├── README.md
+├── app.py
+└── requirements.txt
 ```
 
 ## Tools used:
@@ -67,7 +74,7 @@ Attribute Information:
 
 Web App Link: https://stroke-predict-app.herokuapp.com
 
-In this web app, we just need to enter the amount of ingredients and the model will give a prediction on the compressive strength of the concrete if made with those amount of ingredients.
+In this web app, we just need to enter 10 clinical features about the person and the algorithm will predict if the person is at a risk of stroke.
 
 ## Creator:
 
