@@ -9,7 +9,7 @@ About 15 million people suffer from a stroke per year. It generally occurs due t
 
 ## Proposed Solution:
 
-A possible solution would be to create a Machine Learning model which would predict whether the person is a risk of future strokes.  
+A possible solution would be to create a Machine Learning model which would predict whether the person is a risk of future strokes, given their clinical features.  
 
 ## Data Description:
 
