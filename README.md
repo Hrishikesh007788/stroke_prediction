@@ -1,6 +1,6 @@
 # Stroke Risk predictor
 
-![alt text](https://thumbs.dreamstime.com/z/laboratory-testing-building-materials-concrete-cube-compressive-strength-test-sample-cracked-176634173.jpg)
+![alt text](https://els-jbs-prod-cdn.jbs.elsevierhealth.com/cms/attachment/6c1a730a-9ceb-4bf7-a77e-19f55abf1227/fx1_lrg.jpg)
 
 
 ## Problem Statement:
